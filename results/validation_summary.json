@@ -1,0 +1,25 @@
+{
+  "particle": "alpha",
+  "validation_unit": "microscale model component identified by site; not an independent donor or independent macroregion",
+  "n_current_components": 73,
+  "n_total_components_including_reconstructions": 75,
+  "n_fit_rows": 11376,
+  "n_total_rows": 13344,
+  "micro_holdout": {
+    "n": 11376,
+    "r2": 0.9918445245895126,
+    "rmse": 0.02059493605340855,
+    "mean_abs_error": 0.012884670175695605,
+    "p95_abs_error": 0.04781640497890881,
+    "p99_abs_error": 0.06894092827689685,
+    "max_abs_error": 0.20124014761049727,
+    "mape_AF_gt001": 0.065021300165507,
+    "n_AF_gt001": 11115,
+    "n_pred_below_zero": 0,
+    "n_pred_above_one": 0
+  },
+  "fold_initialization": "prespecified model p0, independent of held-out observations",
+  "n_unsuccessful_micro_fits": 0,
+  "micro_n_negative_predictions": 0,
+  "micro_n_above_one_predictions": 0
+}
